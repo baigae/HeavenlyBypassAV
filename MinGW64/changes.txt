@@ -1,0 +1,7 @@
+Changes made to the original 4.9.2-tdm64-3 install:
+
+- Removed readme files.
+- Removed the leftover __installer folder.
+- Added OpemMP support.
+- Added rm.exe from GCC 3.4.2.
+- Added gdb32.exe and gdbserver32.exe from TDM-GCC 4.9.2-tdm-3 (x86).

@@ -1,0 +1,65 @@
+mingw32-make
+================================================================================
+Make is a tool which controls the generation of executables and other
+non-source files of a program from the program's source files.
+
+Make gets its knowledge of how to build your program from a file called
+the makefile, which lists each of the non-source files and how to compute
+it from other files. When you write a program, you should write a makefile
+for it, so that it is possible to use Make to build and install the program.
+
+Runtime requirements:
+  msvcrt
+  libintl-8   0.18.1.1-2
+  libiconv-2  1.14-2
+
+Build requirements:
+  msys
+  msys-make
+  msys-sed
+  msys-perl
+  mingw-gcc-core-4.x
+  mingw-binutils
+  mingw-mgwport
+  mingw-gettext-bin
+  mingw-gettext-dev
+
+Canonical homepage:
+  http://www.gnu.org/software/make/
+
+Canonical download:
+  http://ftp.gnu.org/gnu/make/
+
+License:
+  GPL
+
+Language:
+  C
+
+================================================================================
+
+Build instructions:
+  unpack make-3.82.90-X-mingw32-cvs-20120823-src.tar.lzma
+  mgwport make-3.82.90-X.mgwport all
+
+This will create:
+  make-3.82.90-X-mingw32-cvs-20120823-bin.tar.lzma
+  make-3.82.90-X-mingw32-cvs-20120823-doc.tar.lzma
+  make-3.82.90-X-mingw32-cvs-20120823-lic.tar.lzma
+  make-3.82.90-X-mingw32-cvs-20120823-lang.tar.lzma
+
+================================================================================
+
+Files in dos2unix:
+  /bin/mingw32-make.exe
+
+================================================================================
+
+Port Notes:
+
+
+Changes in this release:
+  * local patch to remove build time dependency on pkg-config.
+
+================================================================================
+MinGW port maintained by: Chris Sutcliffe <ir0nh34d@users.sf.net>
