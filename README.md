@@ -6,6 +6,7 @@
 本地分离马子使用：马子.exe code.bin  //code.bin可以改成任意格式
 
 网络分离马子使用：马子.exe url链接 
+
 示例：马子.exe http://www.baidu.com/1.txt
 
 ![QQ截图20240531145849](新建文件夹/20241120150642.png)
