@@ -98,7 +98,7 @@ C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64
 
 ![微信截图_20240220160317](新建文件夹/微信截图_20240220160317.png)
 
-# 使用方式
+# 1.0使用方式
 
 只要把CS生成的beacon.bin文件放在和Heavenly.exe同一目录即可，然后可以双击运行exe，等待一会自动化生成。仅支持64位shellcode，默认采用xor加密，也可以使用命令行生成设置加密方法，暂支持xor和winxor两种加密方式，最后生成的文件是exe后缀。
 
